@@ -9,6 +9,7 @@ if s.isdigit():
                 sum2+= 2 * int(i)%10 + 2 * int(i)//10
             else:
                 sum2+=int(i)*2
+                break
         for i in s[1:len(s):2]:
             sum1+=int(i)
         if (sum1+sum2)%10 == 0 and int(s)!=0:
